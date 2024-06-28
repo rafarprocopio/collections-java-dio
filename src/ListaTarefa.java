@@ -31,10 +31,7 @@ public class ListaTarefa {
     }
 
     public static void main(String[] args) {
-        ListaTarefa listaTarefa - new ListaTarefa() {
-            System.out.println("o número total de tarefas na lista é: " + listaTarefa.obterNumeroTotalTarefas());
-
+        ListaTarefa listaTarefa = new ListaTarefa();
+        System.out.println("o número total de tarefas na lista é: " + listaTarefa.obterNumeroTotalTarefas());
     }
-
-    
 }
