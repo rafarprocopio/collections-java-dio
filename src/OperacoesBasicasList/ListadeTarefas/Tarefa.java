@@ -1,3 +1,4 @@
+package OperacoesBasicasList.ListadeTarefas;
 public class Tarefa {
     //Atributo
     private String descricao;
