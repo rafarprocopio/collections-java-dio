@@ -62,6 +62,9 @@ public class CatalogoLivros {
         catalogoLivros.adicionarLivro("O Codificador Limpo", "Robert C. Martin", 2012);
 
         System.out.println(catalogoLivros.pesquisarPorAutor("Robert C. Martin"));
+        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2020, 2022));
+        System.out.println(catalogoLivros.pesquisarPorTitulo("Microsserviços Prontos Para a Produção"));
+        
     }
     
 }
