@@ -8,7 +8,7 @@ public class CatalogoLivros {
     private List<Livro> livrolist;
 
 
-    //declaração feita automatica através do Generate Constructor. Depois substituido por vazio e inserido uma new ArrayList Vazio tbm selecionado autoqmaticamente
+    //declaração feita automatica através do Generate Constructor. Depois substituido por vazio e inserido uma new ArrayList Vazio tbm selecionado automaticamente
     public CatalogoLivros() {
         this.livrolist = new ArrayList<>();
     }
